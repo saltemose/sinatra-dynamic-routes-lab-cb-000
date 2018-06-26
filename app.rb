@@ -40,7 +40,7 @@ class App < Sinatra::Base
     elsif op = "multiply"
       answer = num1 * num2
     end
-    answer
+    "#{answer}
   end
 
 end
